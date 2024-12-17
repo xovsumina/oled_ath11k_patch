@@ -11,3 +11,5 @@
 9. Unload the current ath11k module via `sudo modprobe -r ath11k_pci` and `sudo modprobe -r ath11k`
 10. Load the patched driver by running `sudo modprobe ath11k`, then `sudo modprobe ath11k_pci`
 11. Confirm that you're using the patched version by running `modinfo ath11k` and looking for the `.../updates/ath11k.ko` path under `filename`
+12. Re-enable wifi
+13. Reboot the deck
